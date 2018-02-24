@@ -1,25 +1,27 @@
 ﻿using UnityEngine;
-public class Tile : MonoBehaviour {
+namespace ReflexAgent {
+    public class Tile : MonoBehaviour {
 
-    bool dirty = false;
-    public Material dirtyMat;
-    public Material cleanMat;
+        bool dirty = false;
+        public Material dirtyMat;
+        public Material cleanMat;
 
-    MeshRenderer render;
+        MeshRenderer render;
 
-	public bool isDirty {
-        get { return dirty; }
-        set {
-            dirty = value;
-            if (value == true)
-                render.material = dirtyMat;
-            else
-                render.material = cleanMat;
+        public bool isDirty {
+            get { return dirty; }
+            set {
+                dirty = value;
+                if (value == true)
+                    render.material = dirtyMat;
+                else
+                    render.material = cleanMat;
+            }
         }
-    }
 
-    private void Awake() {
-        render = GetComponent<MeshRenderer>();
-    }
+        private void Awake() {
+            render = GetComponent<MeshRenderer>();
+        }
 
+    }
 }
