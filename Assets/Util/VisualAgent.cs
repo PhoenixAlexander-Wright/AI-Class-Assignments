@@ -8,7 +8,6 @@ public class VisualAgent : MonoBehaviour {
 
     private void Awake() {
         trans = GetComponent<Transform>();
-        Init();
     }
 
     public void Init() {
