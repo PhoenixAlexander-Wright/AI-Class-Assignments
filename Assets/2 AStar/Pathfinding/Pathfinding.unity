@@ -587,6 +587,7 @@ GameObject:
   - component: {fileID: 1077926556}
   - component: {fileID: 1077926555}
   - component: {fileID: 1077926553}
+  - component: {fileID: 1077926557}
   m_Layer: 0
   m_Name: Demo
   m_TagString: Untagged
@@ -653,6 +654,17 @@ MonoBehaviour:
   gridSizeX: 15
   gridSizeY: 15
   nodeRadius: 0.5
+--- !u!114 &1077926557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077926552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858cfcd3d90f85446b9a9417d2d19545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294839064
 GameObject:
   m_ObjectHideFlags: 0

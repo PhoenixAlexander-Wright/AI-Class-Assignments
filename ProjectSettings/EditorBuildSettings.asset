@@ -5,12 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/1 Reflex Agent/1.unity
     guid: 82f0c74621c930340b43f018a9a1f867
-  - enabled: 1
+  - enabled: 0
     path: Assets/2 AStar/NQueen/NQueen.unity
     guid: 18a8da35f5a1fe24ca02043af41ae2d2
-  - enabled: 1
+  - enabled: 0
     path: Assets/2 AStar/Pathfinding/Pathfinding.unity
     guid: 1a3ff92fd8543644e93a7e24a7202bb4
+  - enabled: 0
+    path: Assets/3 Genetic/NQueen/NQueen Genetic.unity
+    guid: d55d3d5d1e144044799d08bcd74a5f3a
+  - enabled: 0
+    path: Assets/3 Genetic/Force/TextGA.unity
+    guid: 273134924de28ee4391f596bed2267d8
+  - enabled: 1
+    path: Assets/4 Perceptron/Perceptron.unity
+    guid: 0da7334cb280e2043b333816aa9ef55d
