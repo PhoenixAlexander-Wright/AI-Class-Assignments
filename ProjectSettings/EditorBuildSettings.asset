@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/3 Genetic/Force/TextGA.unity
     guid: 273134924de28ee4391f596bed2267d8
-  - enabled: 1
+  - enabled: 0
     path: Assets/4 Perceptron/Perceptron.unity
     guid: 0da7334cb280e2043b333816aa9ef55d
+  - enabled: 1
+    path: Assets/5 ANN/ANN.unity
+    guid: fb721cf11058f8441b7f4d98e9e05fbe
